@@ -2,7 +2,7 @@
 # Content
 - Introduction
 - Repository
-- Install
+- Install dependencies
 - Run code
 - Use XAMPP
 - Information
@@ -28,7 +28,7 @@ In mensajes-app: We can aplicate all the definitios explained in the Introductio
 - Update messagges
 - Delete messages
 
-# Install  
+# Install dependencies  
 
 - [Download and install MySQL](https://dev.mysql.com/downloads/workbench/)
 - [Add mysql-connector-java-8.0.25.jar](https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app/lib/mysql-connector-java-8.0.25.jar)
