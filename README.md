@@ -3,6 +3,8 @@
 - Introduction
 - Repository
 - Install
+- Run code
+- Use XAMPP
 - Information
 
 # Introduction
@@ -28,10 +30,50 @@ In mensajes-app: We can aplicate all the definitios explained in the Introductio
 
 # Install  
 
-- Install MySQL
-- Add mysql-connector-java-8.0.25.jar
-- Install JDK 16
-- Install Apache NetBeans or another IDE.
+- [Download and install MySQL](https://dev.mysql.com/downloads/workbench/)
+- [Add mysql-connector-java-8.0.25.jar](https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app/lib/mysql-connector-java-8.0.25.jar)
+- [Install JDK 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+- [Download Intellij IDE](https://www.jetbrains.com/es-es/idea/download/#section=windows)
+
+# Run code
+
+1. Download this repository using
+> $ git clone
+
+2. Open Intellij IDE, open the project named **mensajes_app**
+
+   <div><img src ="https://vaadin.com/docs/latest/static/44aa85798d7510627ce48c5b38738da1/03979/welcome-screen.png" width ="800px">  </div>    
+
+3. Select the file named **inicio.java**.
+
+   <div><img src ="https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app/JavaPersistence1.PNG" width ="800px">  </div>    
+
+4. Right click on the mouse and **Run** wait a couple of seconds.
+
+   <div><img src ="https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app/JavaPersistence2.PNG" width ="800px">  </div>   
+   
+5. You will see the menu where you can interact with the XAMPP database created
+
+      <div><img src ="https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app/JavaPersistence3.PNG" width ="800px">  </div>  
+      
+ # Use XAMPP
+
+1. **START MODULES XAMPP**
+ > To start Apache (or another module), you have to click on the corresponding "Start" button. If the module startup is successful, the control panel will show the name of the module with a green background, its process identifier, the open ports (http and https), the "Start" button will turn into a "Stop" button and the notification area will show the result of the operations carried out. 
+  <div><img src ="https://www.nettix.com.pe/wp-content/uploads/2020/05/xiniciar-mod.png.pagespeed.ic.Nk1P60apl_.webpD" width ="800px"> </div>
+  
+ 2. **PHP MYADMIN WEB PANEL**
+ > If the Apache and MySQL server have started, to verify that everything works correctly, you must write the address http: // localhost / phpmyadmin / in the browser. XAMPP will   open the new phpMyAdmin database administration panel
+ 
+ <div><img src ="https://www.nettix.com.pe/wp-content/uploads/2020/05/744x453xphp-myadmin.png.pagespeed.ic.t-yqrBmGh6.webp" width ="800px">  </div> 
+ 
+ > once we have entered the username and password, we will be able to access the databases
+ 
+ <div><img src ="https://www.nettix.com.pe/wp-content/uploads/2020/05/744x489xindex-php-my-admin.png.pagespeed.ic.n2NDyX2zAU.webp" width ="800px">  </div> 
+ 
+ 
+ > Use the [mensajes_app.sql](https://github.com/ItzelAlonsoG/JavaPersistance/blob/main/mensajes_app.sql) to create the data base in XAMPP to work and use de methods created in the JavaAdvance project.
+
 
 # Information
 
